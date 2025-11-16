@@ -7,7 +7,7 @@ import axios from "axios";
  * - sinon bascule sur http://127.0.0.1:8001
  * - nettoie les / en trop
  */
-const RAW = (process.env.REACT_APP_BACKEND_URL || "http://127.0.0.1:8001").trim();
+const RAW = const BRUT = "http://37.59.98.87:8000";
 const BASE = RAW.replace(/\/+$/, "") + "/api";
 
 const api = axios.create({
