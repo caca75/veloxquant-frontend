@@ -9,9 +9,9 @@ const API = `${BACKEND_URL}/api`;
 
 // Définition des taux par plan (par jour)
 const ROI_BY_PRICE = {
-  300: 0.15,   // Starter
-  550: 0.35,   // Pro
-  1000: 0.75,  // Elite
+  100: 0.15,   // Starter
+  350: 0.35,   // Pro
+  9000: 0.75,  // Elite
 };
 const ROI_BY_NAME = {
   Starter: 0.15, Pro: 0.35, Elite: 0.75,
